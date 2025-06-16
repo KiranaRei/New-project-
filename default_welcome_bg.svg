@@ -1,0 +1,29 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Grid overlay -->
+  <rect width="800" height="400" fill="url(#grid)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="700" cy="100" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="750" cy="350" r="60" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Welcome text area indicator -->
+  <rect x="240" y="120" width="500" height="200" rx="10" fill="rgba(0,0,0,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Avatar placeholder -->
+  <circle cx="160" cy="200" r="60" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="3"/>
+  <text x="160" y="210" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="16">Avatar</text>
+</svg>
